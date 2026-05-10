@@ -1,0 +1,944 @@
+{
+  "recentMonths": [
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "regionStats": {
+    "서울": {
+      "openings": 890073.0,
+      "seekers": 2406258.0,
+      "employed": 727125.0,
+      "openingsPerSeeker": 0.3698992377375992,
+      "employmentPerSeeker": 0.30218081352872384
+    },
+    "부산": {
+      "openings": 375018.0,
+      "seekers": 1142544.0,
+      "employed": 357207.0,
+      "openingsPerSeeker": 0.3282306852077469,
+      "employmentPerSeeker": 0.31264178885014493
+    },
+    "대구": {
+      "openings": 222621.0,
+      "seekers": 721674.0,
+      "employed": 212118.0,
+      "openingsPerSeeker": 0.3084786205405765,
+      "employmentPerSeeker": 0.29392495780643335
+    },
+    "인천": {
+      "openings": 316326.0,
+      "seekers": 946005.0,
+      "employed": 306303.0,
+      "openingsPerSeeker": 0.3343808965068895,
+      "employmentPerSeeker": 0.32378581508554394
+    },
+    "광주": {
+      "openings": 99939.0,
+      "seekers": 410361.0,
+      "employed": 122811.0,
+      "openingsPerSeeker": 0.24353922521877078,
+      "employmentPerSeeker": 0.299275515948153
+    },
+    "대전": {
+      "openings": 85032.0,
+      "seekers": 377727.0,
+      "employed": 105201.0,
+      "openingsPerSeeker": 0.22511496398192346,
+      "employmentPerSeeker": 0.2785106704048162
+    },
+    "울산": {
+      "openings": 132753.0,
+      "seekers": 366687.0,
+      "employed": 112095.0,
+      "openingsPerSeeker": 0.36203355995712966,
+      "employmentPerSeeker": 0.305696684092973
+    },
+    "세종": {
+      "openings": 29772.0,
+      "seekers": 83931.0,
+      "employed": 24408.0,
+      "openingsPerSeeker": 0.35471994852914895,
+      "employmentPerSeeker": 0.29081030846766986
+    },
+    "경기": {
+      "openings": 1501563.0,
+      "seekers": 3924606.0,
+      "employed": 1229922.0,
+      "openingsPerSeeker": 0.3826022280962726,
+      "employmentPerSeeker": 0.31338738207096456
+    },
+    "강원": {
+      "openings": 147903.0,
+      "seekers": 365277.0,
+      "employed": 122247.0,
+      "openingsPerSeeker": 0.4049064134889413,
+      "employmentPerSeeker": 0.3346693057597385
+    },
+    "충북": {
+      "openings": 222681.0,
+      "seekers": 422397.0,
+      "employed": 144009.0,
+      "openingsPerSeeker": 0.5271841419328263,
+      "employmentPerSeeker": 0.34093281912513584
+    },
+    "충남": {
+      "openings": 272535.0,
+      "seekers": 522012.0,
+      "employed": 156093.0,
+      "openingsPerSeeker": 0.5220856991793292,
+      "employmentPerSeeker": 0.29902186156640076
+    },
+    "전북": {
+      "openings": 260442.0,
+      "seekers": 527535.0,
+      "employed": 187152.0,
+      "openingsPerSeeker": 0.49369615286189544,
+      "employmentPerSeeker": 0.35476698228553555
+    },
+    "전남": {
+      "openings": 240510.0,
+      "seekers": 421977.0,
+      "employed": 134283.0,
+      "openingsPerSeeker": 0.5699599741218123,
+      "employmentPerSeeker": 0.31822350507255137
+    },
+    "경북": {
+      "openings": 323607.0,
+      "seekers": 697164.0,
+      "employed": 210453.0,
+      "openingsPerSeeker": 0.4641762913747698,
+      "employmentPerSeeker": 0.3018701482004234
+    },
+    "경남": {
+      "openings": 466482.0,
+      "seekers": 946128.0,
+      "employed": 308967.0,
+      "openingsPerSeeker": 0.49304322459540356,
+      "employmentPerSeeker": 0.3265594084521333
+    },
+    "제주": {
+      "openings": 44877.0,
+      "seekers": 137121.0,
+      "employed": 39651.0,
+      "openingsPerSeeker": 0.327280285295469,
+      "employmentPerSeeker": 0.2891679611438073
+    }
+  },
+  "jobRegionStats": {
+    "서울": {
+      "데이터 분석": {
+        "openings": 16297.0,
+        "seekers": 56388.0,
+        "employed": 16926.0,
+        "openingsPerSeeker": 0.289015393346102,
+        "employmentPerSeeker": 0.3001702489891466
+      },
+      "사무": {
+        "openings": 97351.0,
+        "seekers": 395060.0,
+        "employed": 118016.0,
+        "openingsPerSeeker": 0.24642079684098617,
+        "employmentPerSeeker": 0.29872930694071786
+      },
+      "마케팅": {
+        "openings": 690.0,
+        "seekers": 14082.0,
+        "employed": 4650.0,
+        "openingsPerSeeker": 0.0489987217724755,
+        "employmentPerSeeker": 0.3302087771623349
+      },
+      "개발": {
+        "openings": 1582.0,
+        "seekers": 38491.0,
+        "employed": 12540.0,
+        "openingsPerSeeker": 0.041100517003974955,
+        "employmentPerSeeker": 0.32579044451949807
+      },
+      "디자인": {
+        "openings": 5382.0,
+        "seekers": 162336.0,
+        "employed": 41434.0,
+        "openingsPerSeeker": 0.033153459491425195,
+        "employmentPerSeeker": 0.25523605361718904
+      }
+    },
+    "부산": {
+      "데이터 분석": {
+        "openings": 3797.0,
+        "seekers": 19601.0,
+        "employed": 5156.0,
+        "openingsPerSeeker": 0.19371460639763277,
+        "employmentPerSeeker": 0.2630478036834855
+      },
+      "사무": {
+        "openings": 35030.0,
+        "seekers": 166492.0,
+        "employed": 47226.0,
+        "openingsPerSeeker": 0.21040049972371044,
+        "employmentPerSeeker": 0.28365326862551954
+      },
+      "마케팅": {
+        "openings": 240.0,
+        "seekers": 1841.0,
+        "employed": 471.0,
+        "openingsPerSeeker": 0.13036393264530147,
+        "employmentPerSeeker": 0.2558392178164041
+      },
+      "개발": {
+        "openings": 208.0,
+        "seekers": 6242.0,
+        "employed": 1545.0,
+        "openingsPerSeeker": 0.033322652995834666,
+        "employmentPerSeeker": 0.2475168215315604
+      },
+      "디자인": {
+        "openings": 1534.0,
+        "seekers": 29154.0,
+        "employed": 6284.0,
+        "openingsPerSeeker": 0.05261713658503121,
+        "employmentPerSeeker": 0.2155450367016533
+      }
+    },
+    "대구": {
+      "데이터 분석": {
+        "openings": 2286.0,
+        "seekers": 12224.0,
+        "employed": 3146.0,
+        "openingsPerSeeker": 0.18700916230366493,
+        "employmentPerSeeker": 0.25736256544502617
+      },
+      "사무": {
+        "openings": 20122.0,
+        "seekers": 108815.0,
+        "employed": 29906.0,
+        "openingsPerSeeker": 0.18491935854431835,
+        "employmentPerSeeker": 0.274833432890686
+      },
+      "마케팅": {
+        "openings": 80.0,
+        "seekers": 1019.0,
+        "employed": 257.0,
+        "openingsPerSeeker": 0.07850834151128558,
+        "employmentPerSeeker": 0.2522080471050049
+      },
+      "개발": {
+        "openings": 214.0,
+        "seekers": 4050.0,
+        "employed": 1047.0,
+        "openingsPerSeeker": 0.05283950617283951,
+        "employmentPerSeeker": 0.25851851851851854
+      },
+      "디자인": {
+        "openings": 820.0,
+        "seekers": 18910.0,
+        "employed": 4218.0,
+        "openingsPerSeeker": 0.04336329984135378,
+        "employmentPerSeeker": 0.22305658381808566
+      }
+    },
+    "인천": {
+      "데이터 분석": {
+        "openings": 1824.0,
+        "seekers": 17104.0,
+        "employed": 4441.0,
+        "openingsPerSeeker": 0.10664172123479888,
+        "employmentPerSeeker": 0.2596468662301216
+      },
+      "사무": {
+        "openings": 21980.0,
+        "seekers": 139964.0,
+        "employed": 41268.0,
+        "openingsPerSeeker": 0.15704038181246607,
+        "employmentPerSeeker": 0.29484724643479754
+      },
+      "마케팅": {
+        "openings": 74.0,
+        "seekers": 2087.0,
+        "employed": 615.0,
+        "openingsPerSeeker": 0.03545759463344514,
+        "employmentPerSeeker": 0.29468136080498325
+      },
+      "개발": {
+        "openings": 102.0,
+        "seekers": 7514.0,
+        "employed": 2141.0,
+        "openingsPerSeeker": 0.013574660633484163,
+        "employmentPerSeeker": 0.28493478839499603
+      },
+      "디자인": {
+        "openings": 954.0,
+        "seekers": 32376.0,
+        "employed": 7728.0,
+        "openingsPerSeeker": 0.029466271312083025,
+        "employmentPerSeeker": 0.23869532987398073
+      }
+    },
+    "광주": {
+      "데이터 분석": {
+        "openings": 1542.0,
+        "seekers": 8297.0,
+        "employed": 2522.0,
+        "openingsPerSeeker": 0.1858503073400024,
+        "employmentPerSeeker": 0.30396528865855127
+      },
+      "사무": {
+        "openings": 14700.0,
+        "seekers": 70299.0,
+        "employed": 21768.0,
+        "openingsPerSeeker": 0.2091068151751803,
+        "employmentPerSeeker": 0.30964878590022615
+      },
+      "마케팅": {
+        "openings": 107.0,
+        "seekers": 658.0,
+        "employed": 172.0,
+        "openingsPerSeeker": 0.16261398176291794,
+        "employmentPerSeeker": 0.2613981762917933
+      },
+      "개발": {
+        "openings": 142.0,
+        "seekers": 2950.0,
+        "employed": 768.0,
+        "openingsPerSeeker": 0.04813559322033898,
+        "employmentPerSeeker": 0.26033898305084746
+      },
+      "디자인": {
+        "openings": 764.0,
+        "seekers": 11904.0,
+        "employed": 2622.0,
+        "openingsPerSeeker": 0.06418010752688172,
+        "employmentPerSeeker": 0.22026209677419356
+      }
+    },
+    "대전": {
+      "데이터 분석": {
+        "openings": 4258.0,
+        "seekers": 8428.0,
+        "employed": 2401.0,
+        "openingsPerSeeker": 0.5052206929283342,
+        "employmentPerSeeker": 0.28488372093023256
+      },
+      "사무": {
+        "openings": 15756.0,
+        "seekers": 64087.0,
+        "employed": 18537.0,
+        "openingsPerSeeker": 0.24585329317958401,
+        "employmentPerSeeker": 0.2892474292758282
+      },
+      "마케팅": {
+        "openings": 64.0,
+        "seekers": 699.0,
+        "employed": 174.0,
+        "openingsPerSeeker": 0.09155937052932761,
+        "employmentPerSeeker": 0.24892703862660945
+      },
+      "개발": {
+        "openings": 228.0,
+        "seekers": 3758.0,
+        "employed": 1153.0,
+        "openingsPerSeeker": 0.06067056945183608,
+        "employmentPerSeeker": 0.30681213411389036
+      },
+      "디자인": {
+        "openings": 444.0,
+        "seekers": 12018.0,
+        "employed": 2742.0,
+        "openingsPerSeeker": 0.036944583125312035,
+        "employmentPerSeeker": 0.22815776335496754
+      }
+    },
+    "울산": {
+      "데이터 분석": {
+        "openings": 1230.0,
+        "seekers": 5717.0,
+        "employed": 1423.0,
+        "openingsPerSeeker": 0.21514780479272347,
+        "employmentPerSeeker": 0.24890676928458982
+      },
+      "사무": {
+        "openings": 10443.0,
+        "seekers": 52564.0,
+        "employed": 14797.0,
+        "openingsPerSeeker": 0.1986720949699414,
+        "employmentPerSeeker": 0.28150445171600336
+      },
+      "마케팅": {
+        "openings": 108.0,
+        "seekers": 297.0,
+        "employed": 73.0,
+        "openingsPerSeeker": 0.36363636363636365,
+        "employmentPerSeeker": 0.24579124579124578
+      },
+      "개발": {
+        "openings": 100.0,
+        "seekers": 1085.0,
+        "employed": 261.0,
+        "openingsPerSeeker": 0.09216589861751152,
+        "employmentPerSeeker": 0.24055299539170508
+      },
+      "디자인": {
+        "openings": 912.0,
+        "seekers": 6046.0,
+        "employed": 1324.0,
+        "openingsPerSeeker": 0.1508435329143235,
+        "employmentPerSeeker": 0.21898776050281177
+      }
+    },
+    "세종": {
+      "데이터 분석": {
+        "openings": 476.0,
+        "seekers": 1903.0,
+        "employed": 494.0,
+        "openingsPerSeeker": 0.2501313715186548,
+        "employmentPerSeeker": 0.25959012086179717
+      },
+      "사무": {
+        "openings": 4357.0,
+        "seekers": 15009.0,
+        "employed": 4117.0,
+        "openingsPerSeeker": 0.2902924911719635,
+        "employmentPerSeeker": 0.2743020854154174
+      },
+      "마케팅": {
+        "openings": 40.0,
+        "seekers": 182.0,
+        "employed": 47.0,
+        "openingsPerSeeker": 0.21978021978021978,
+        "employmentPerSeeker": 0.25824175824175827
+      },
+      "개발": {
+        "openings": 31.0,
+        "seekers": 641.0,
+        "employed": 191.0,
+        "openingsPerSeeker": 0.0483619344773791,
+        "employmentPerSeeker": 0.29797191887675506
+      },
+      "디자인": {
+        "openings": 170.0,
+        "seekers": 2526.0,
+        "employed": 510.0,
+        "openingsPerSeeker": 0.06730007917656373,
+        "employmentPerSeeker": 0.20190023752969122
+      }
+    },
+    "경기": {
+      "데이터 분석": {
+        "openings": 10857.0,
+        "seekers": 75086.0,
+        "employed": 20066.0,
+        "openingsPerSeeker": 0.14459419865221212,
+        "employmentPerSeeker": 0.26724023120155554
+      },
+      "사무": {
+        "openings": 112524.0,
+        "seekers": 605150.0,
+        "employed": 173423.0,
+        "openingsPerSeeker": 0.18594398083119887,
+        "employmentPerSeeker": 0.2865785342477072
+      },
+      "마케팅": {
+        "openings": 662.0,
+        "seekers": 10943.0,
+        "employed": 3253.0,
+        "openingsPerSeeker": 0.06049529379512017,
+        "employmentPerSeeker": 0.29726765969112673
+      },
+      "개발": {
+        "openings": 1271.0,
+        "seekers": 38025.0,
+        "employed": 11435.0,
+        "openingsPerSeeker": 0.033425378040762656,
+        "employmentPerSeeker": 0.3007232084155161
+      },
+      "디자인": {
+        "openings": 6138.0,
+        "seekers": 150016.0,
+        "employed": 34432.0,
+        "openingsPerSeeker": 0.04091563566552901,
+        "employmentPerSeeker": 0.2295221843003413
+      }
+    },
+    "강원": {
+      "데이터 분석": {
+        "openings": 2863.0,
+        "seekers": 7622.0,
+        "employed": 2484.0,
+        "openingsPerSeeker": 0.37562319601154553,
+        "employmentPerSeeker": 0.3258987142482288
+      },
+      "사무": {
+        "openings": 19067.0,
+        "seekers": 57732.0,
+        "employed": 18916.0,
+        "openingsPerSeeker": 0.33026744266611235,
+        "employmentPerSeeker": 0.3276519088200651
+      },
+      "마케팅": {
+        "openings": 70.0,
+        "seekers": 457.0,
+        "employed": 101.0,
+        "openingsPerSeeker": 0.15317286652078774,
+        "employmentPerSeeker": 0.2210065645514223
+      },
+      "개발": {
+        "openings": 65.0,
+        "seekers": 1308.0,
+        "employed": 275.0,
+        "openingsPerSeeker": 0.04969418960244648,
+        "employmentPerSeeker": 0.21024464831804282
+      },
+      "디자인": {
+        "openings": 718.0,
+        "seekers": 7322.0,
+        "employed": 1644.0,
+        "openingsPerSeeker": 0.09806063916962579,
+        "employmentPerSeeker": 0.22452881726304288
+      }
+    },
+    "충북": {
+      "데이터 분석": {
+        "openings": 2095.0,
+        "seekers": 7328.0,
+        "employed": 2416.0,
+        "openingsPerSeeker": 0.2858897379912664,
+        "employmentPerSeeker": 0.3296943231441048
+      },
+      "사무": {
+        "openings": 20263.0,
+        "seekers": 64943.0,
+        "employed": 21944.0,
+        "openingsPerSeeker": 0.3120120721247864,
+        "employmentPerSeeker": 0.3378963090710315
+      },
+      "마케팅": {
+        "openings": 73.0,
+        "seekers": 479.0,
+        "employed": 120.0,
+        "openingsPerSeeker": 0.1524008350730689,
+        "employmentPerSeeker": 0.25052192066805845
+      },
+      "개발": {
+        "openings": 90.0,
+        "seekers": 1679.0,
+        "employed": 457.0,
+        "openingsPerSeeker": 0.05360333531864205,
+        "employmentPerSeeker": 0.2721858248957713
+      },
+      "디자인": {
+        "openings": 804.0,
+        "seekers": 7828.0,
+        "employed": 1820.0,
+        "openingsPerSeeker": 0.1027082268778743,
+        "employmentPerSeeker": 0.23249872253449158
+      }
+    },
+    "충남": {
+      "데이터 분석": {
+        "openings": 2644.0,
+        "seekers": 9595.0,
+        "employed": 2865.0,
+        "openingsPerSeeker": 0.2755601875977071,
+        "employmentPerSeeker": 0.2985930171964565
+      },
+      "사무": {
+        "openings": 25829.0,
+        "seekers": 82308.0,
+        "employed": 25463.0,
+        "openingsPerSeeker": 0.3138091072556738,
+        "employmentPerSeeker": 0.3093623949069349
+      },
+      "마케팅": {
+        "openings": 55.0,
+        "seekers": 518.0,
+        "employed": 122.0,
+        "openingsPerSeeker": 0.10617760617760617,
+        "employmentPerSeeker": 0.23552123552123552
+      },
+      "개발": {
+        "openings": 219.0,
+        "seekers": 2644.0,
+        "employed": 620.0,
+        "openingsPerSeeker": 0.08282904689863843,
+        "employmentPerSeeker": 0.2344931921331316
+      },
+      "디자인": {
+        "openings": 690.0,
+        "seekers": 10274.0,
+        "employed": 2160.0,
+        "openingsPerSeeker": 0.06715982090714424,
+        "employmentPerSeeker": 0.21023943936149503
+      }
+    },
+    "전북": {
+      "데이터 분석": {
+        "openings": 4171.0,
+        "seekers": 9359.0,
+        "employed": 3089.0,
+        "openingsPerSeeker": 0.4456672721444599,
+        "employmentPerSeeker": 0.33005662998183566
+      },
+      "사무": {
+        "openings": 30065.0,
+        "seekers": 79080.0,
+        "employed": 27207.0,
+        "openingsPerSeeker": 0.38018462316641377,
+        "employmentPerSeeker": 0.34404400606980273
+      },
+      "마케팅": {
+        "openings": 211.0,
+        "seekers": 514.0,
+        "employed": 174.0,
+        "openingsPerSeeker": 0.41050583657587547,
+        "employmentPerSeeker": 0.33852140077821014
+      },
+      "개발": {
+        "openings": 78.0,
+        "seekers": 1787.0,
+        "employed": 422.0,
+        "openingsPerSeeker": 0.04364857302742026,
+        "employmentPerSeeker": 0.23614997202014548
+      },
+      "디자인": {
+        "openings": 1324.0,
+        "seekers": 9482.0,
+        "employed": 2302.0,
+        "openingsPerSeeker": 0.13963298882092384,
+        "employmentPerSeeker": 0.24277578569921957
+      }
+    },
+    "전남": {
+      "데이터 분석": {
+        "openings": 4335.0,
+        "seekers": 7715.0,
+        "employed": 2331.0,
+        "openingsPerSeeker": 0.5618924173687622,
+        "employmentPerSeeker": 0.3021386908619572
+      },
+      "사무": {
+        "openings": 28083.0,
+        "seekers": 63661.0,
+        "employed": 20147.0,
+        "openingsPerSeeker": 0.4411335040291544,
+        "employmentPerSeeker": 0.31647319394919965
+      },
+      "마케팅": {
+        "openings": 92.0,
+        "seekers": 275.0,
+        "employed": 62.0,
+        "openingsPerSeeker": 0.33454545454545453,
+        "employmentPerSeeker": 0.22545454545454546
+      },
+      "개발": {
+        "openings": 169.0,
+        "seekers": 1359.0,
+        "employed": 334.0,
+        "openingsPerSeeker": 0.1243561442236939,
+        "employmentPerSeeker": 0.2457689477557027
+      },
+      "디자인": {
+        "openings": 844.0,
+        "seekers": 6058.0,
+        "employed": 1332.0,
+        "openingsPerSeeker": 0.1393199075602509,
+        "employmentPerSeeker": 0.21987454605480355
+      }
+    },
+    "경북": {
+      "데이터 분석": {
+        "openings": 2549.0,
+        "seekers": 11052.0,
+        "employed": 3181.0,
+        "openingsPerSeeker": 0.23063698878031125,
+        "employmentPerSeeker": 0.28782120883098083
+      },
+      "사무": {
+        "openings": 34286.0,
+        "seekers": 99629.0,
+        "employed": 29896.0,
+        "openingsPerSeeker": 0.34413674733260396,
+        "employmentPerSeeker": 0.3000732718385209
+      },
+      "마케팅": {
+        "openings": 94.0,
+        "seekers": 553.0,
+        "employed": 138.0,
+        "openingsPerSeeker": 0.16998191681735986,
+        "employmentPerSeeker": 0.24954792043399637
+      },
+      "개발": {
+        "openings": 208.0,
+        "seekers": 2488.0,
+        "employed": 609.0,
+        "openingsPerSeeker": 0.08360128617363344,
+        "employmentPerSeeker": 0.2447749196141479
+      },
+      "디자인": {
+        "openings": 892.0,
+        "seekers": 10152.0,
+        "employed": 2058.0,
+        "openingsPerSeeker": 0.08786446020488574,
+        "employmentPerSeeker": 0.20271867612293143
+      }
+    },
+    "경남": {
+      "데이터 분석": {
+        "openings": 4069.0,
+        "seekers": 15450.0,
+        "employed": 4575.0,
+        "openingsPerSeeker": 0.26336569579288027,
+        "employmentPerSeeker": 0.2961165048543689
+      },
+      "사무": {
+        "openings": 47463.0,
+        "seekers": 143385.0,
+        "employed": 44050.0,
+        "openingsPerSeeker": 0.3310178889005126,
+        "employmentPerSeeker": 0.3072148411619068
+      },
+      "마케팅": {
+        "openings": 145.0,
+        "seekers": 773.0,
+        "employed": 198.0,
+        "openingsPerSeeker": 0.18758085381630013,
+        "employmentPerSeeker": 0.25614489003880986
+      },
+      "개발": {
+        "openings": 373.0,
+        "seekers": 3179.0,
+        "employed": 818.0,
+        "openingsPerSeeker": 0.11733249449512426,
+        "employmentPerSeeker": 0.25731362063541996
+      },
+      "디자인": {
+        "openings": 1616.0,
+        "seekers": 16014.0,
+        "employed": 3426.0,
+        "openingsPerSeeker": 0.10091170226052204,
+        "employmentPerSeeker": 0.2139378044211315
+      }
+    },
+    "제주": {
+      "데이터 분석": {
+        "openings": 969.0,
+        "seekers": 3027.0,
+        "employed": 914.0,
+        "openingsPerSeeker": 0.3201189296333003,
+        "employmentPerSeeker": 0.3019491245457549
+      },
+      "사무": {
+        "openings": 5788.0,
+        "seekers": 21783.0,
+        "employed": 6856.0,
+        "openingsPerSeeker": 0.26571179360051417,
+        "employmentPerSeeker": 0.3147408529587293
+      },
+      "마케팅": {
+        "openings": 73.0,
+        "seekers": 330.0,
+        "employed": 110.0,
+        "openingsPerSeeker": 0.22121212121212122,
+        "employmentPerSeeker": 0.3333333333333333
+      },
+      "개발": {
+        "openings": 71.0,
+        "seekers": 578.0,
+        "employed": 128.0,
+        "openingsPerSeeker": 0.12283737024221453,
+        "employmentPerSeeker": 0.22145328719723184
+      },
+      "디자인": {
+        "openings": 348.0,
+        "seekers": 3746.0,
+        "employed": 840.0,
+        "openingsPerSeeker": 0.09289909236518953,
+        "employmentPerSeeker": 0.22423918846769889
+      }
+    }
+  },
+  "trainingMetrics": {
+    "서울": {
+      "cardIssued": 179850.0,
+      "trainingParticipants": 169537.0,
+      "trainingAccess": 0.858
+    },
+    "부산": {
+      "cardIssued": 61589.0,
+      "trainingParticipants": 38775.0,
+      "trainingAccess": 0.488
+    },
+    "대구": {
+      "cardIssued": 43850.0,
+      "trainingParticipants": 35275.0,
+      "trainingAccess": 0.457
+    },
+    "인천": {
+      "cardIssued": 61807.0,
+      "trainingParticipants": 34144.0,
+      "trainingAccess": 0.482
+    },
+    "광주": {
+      "cardIssued": 28239.0,
+      "trainingParticipants": 17603.0,
+      "trainingAccess": 0.408
+    },
+    "대전": {
+      "cardIssued": 26236.0,
+      "trainingParticipants": 14462.0,
+      "trainingAccess": 0.4
+    },
+    "울산": {
+      "cardIssued": 20331.0,
+      "trainingParticipants": 11795.0,
+      "trainingAccess": 0.387
+    },
+    "세종": {
+      "cardIssued": 5693.0,
+      "trainingParticipants": 1293.0,
+      "trainingAccess": 0.35
+    },
+    "경기": {
+      "cardIssued": 265942.0,
+      "trainingParticipants": 112081.0,
+      "trainingAccess": 0.9
+    },
+    "강원": {
+      "cardIssued": 18137.0,
+      "trainingParticipants": 6470.0,
+      "trainingAccess": 0.376
+    },
+    "충북": {
+      "cardIssued": 21352.0,
+      "trainingParticipants": 8682.0,
+      "trainingAccess": 0.384
+    },
+    "충남": {
+      "cardIssued": 30184.0,
+      "trainingParticipants": 12183.0,
+      "trainingAccess": 0.402
+    },
+    "전북": {
+      "cardIssued": 27062.0,
+      "trainingParticipants": 15635.0,
+      "trainingAccess": 0.403
+    },
+    "전남": {
+      "cardIssued": 22977.0,
+      "trainingParticipants": 8787.0,
+      "trainingAccess": 0.387
+    },
+    "경북": {
+      "cardIssued": 34176.0,
+      "trainingParticipants": 14932.0,
+      "trainingAccess": 0.412
+    },
+    "경남": {
+      "cardIssued": 50407.0,
+      "trainingParticipants": 26309.0,
+      "trainingAccess": 0.453
+    },
+    "제주": {
+      "cardIssued": 9765.0,
+      "trainingParticipants": 3255.0,
+      "trainingAccess": 0.359
+    }
+  },
+  "agencyCounts": {
+    "서울": {
+      "subsidyOperators": 37,
+      "counselingOperators": 77
+    },
+    "부산": {
+      "subsidyOperators": 11,
+      "counselingOperators": 40
+    },
+    "대구": {
+      "subsidyOperators": 10,
+      "counselingOperators": 30
+    },
+    "인천": {
+      "subsidyOperators": 10,
+      "counselingOperators": 27
+    },
+    "광주": {
+      "subsidyOperators": 14,
+      "counselingOperators": 20
+    },
+    "대전": {
+      "subsidyOperators": 6,
+      "counselingOperators": 12
+    },
+    "울산": {
+      "subsidyOperators": 3,
+      "counselingOperators": 16
+    },
+    "세종": {
+      "subsidyOperators": 2,
+      "counselingOperators": 3
+    },
+    "경기": {
+      "subsidyOperators": 30,
+      "counselingOperators": 116
+    },
+    "강원": {
+      "subsidyOperators": 7,
+      "counselingOperators": 17
+    },
+    "충북": {
+      "subsidyOperators": 7,
+      "counselingOperators": 17
+    },
+    "충남": {
+      "subsidyOperators": 7,
+      "counselingOperators": 25
+    },
+    "전북": {
+      "subsidyOperators": 6,
+      "counselingOperators": 29
+    },
+    "전남": {
+      "subsidyOperators": 5,
+      "counselingOperators": 22
+    },
+    "경북": {
+      "subsidyOperators": 7,
+      "counselingOperators": 43
+    },
+    "경남": {
+      "subsidyOperators": 11,
+      "counselingOperators": 41
+    },
+    "제주": {
+      "counselingOperators": 6
+    }
+  },
+  "sourceFiles": {
+    "ncs": "NCS+능력단위+목록(수준,+능력단위요소+포함)('25.12.16.+고시+기준).xlsx",
+    "training": [
+      "내일배움카드발급현황(월)_1778226424423.xlsx",
+      "실업자훈련실시현황(월)_1778226346800.xlsx"
+    ],
+    "counseling": "국민취업지원제도 운영기관 목록.xlsx",
+    "subsidy": "고용노동부_청년일자리도약장려금 사업 운영기관_20240808.csv"
+  },
+  "dataQuality": {
+    "duplicateRegionWarnings": []
+  },
+  "policyEffects": {
+    "counseling": 0.08,
+    "trainingBase": 0.137,
+    "subsidy": 0.08,
+    "integratedSynergy": 0.045,
+    "distancePenalty": 0.025,
+    "jobSearchPressure": 0.025
+  }
+}

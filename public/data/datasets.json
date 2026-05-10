@@ -1,0 +1,2097 @@
+{
+  "source": {
+    "catalogFile": "사용자 제공 고용노동 데이터셋 폴더 및 워크피디아 수집자료",
+    "totalCatalogRows": 224,
+    "localSourceFiles": 64,
+    "selectedRows": 6,
+    "generatedAt": "2026-05-08",
+    "rawDataLoaded": true,
+    "rawDatasetCount": 6,
+    "rawManifest": "public/data/real_data_summary.json",
+    "analysisSummary": "public/data/real_data_summary.json",
+    "analysisGeneratedAt": "2026-05-08"
+  },
+  "datasets": [
+    {
+      "id": "LOCAL-REGJOB",
+      "title": "지역별 직종별 구인구직취업현황 월별 자료",
+      "role": "지역과 직무별 구인, 구직, 취업 실적을 이용해 취업확률 기준선을 계산",
+      "sourceFile": "지역별 직종별 구인구직취업현황(월) 폴더"
+    },
+    {
+      "id": "LOCAL-WAGEWORK",
+      "title": "임금직업포털 워크피디아 맞춤형 임금정보",
+      "role": "직무별 기대임금 기준선과 보수적 청년 초입 임금값 산정",
+      "sourceFile": "outputs/wagework"
+    },
+    {
+      "id": "LOCAL-NCS",
+      "title": "NCS 능력단위 목록 2025.12.16 고시 기준",
+      "role": "희망직무와 보유역량 간 스킬갭 계산의 기준",
+      "sourceFile": "NCS+능력단위+목록(수준,+능력단위요소+포함)('25.12.16.+고시+기준).xlsx"
+    },
+    {
+      "id": "LOCAL-TRAIN",
+      "title": "내일배움카드 및 실업자훈련 실시 현황",
+      "role": "지역별 훈련 접근성과 훈련 경로 효과 보정",
+      "sourceFile": "내일배움카드발급현황(월)_1778226424423.xlsx, 실업자훈련실시현황(월)_1778226346800.xlsx"
+    },
+    {
+      "id": "LOCAL-COUNSEL",
+      "title": "국민취업지원제도 운영기관 목록",
+      "role": "상담기관 접근성과 상담 경로 효과 산정",
+      "sourceFile": "국민취업지원제도 운영기관 목록.xlsx"
+    },
+    {
+      "id": "LOCAL-SUBSIDY",
+      "title": "청년일자리도약장려금 사업 운영기관",
+      "role": "장려금 활용 기업 경로의 지역 접근성 보정",
+      "sourceFile": "고용노동부_청년일자리도약장려금 사업 운영기관_20240808.csv"
+    }
+  ],
+  "market": {
+    "서울": {
+      "demand": 0.494,
+      "competition": 0.474,
+      "wage": 1.0,
+      "supportAccess": 0.765,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 890073,
+        "jobSeekers": 2406258,
+        "employed": 727125,
+        "openingsPerSeeker": 0.37,
+        "employmentPerSeeker": 0.302,
+        "trainingParticipants": 169537,
+        "cardIssued": 179850,
+        "counselingOperators": 77,
+        "subsidyOperators": 37
+      }
+    },
+    "부산": {
+      "demand": 0.49,
+      "competition": 0.523,
+      "wage": 1.0,
+      "supportAccess": 0.516,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 375018,
+        "jobSeekers": 1142544,
+        "employed": 357207,
+        "openingsPerSeeker": 0.328,
+        "employmentPerSeeker": 0.313,
+        "trainingParticipants": 38775,
+        "cardIssued": 61589,
+        "counselingOperators": 40,
+        "subsidyOperators": 11
+      }
+    },
+    "대구": {
+      "demand": 0.421,
+      "competition": 0.55,
+      "wage": 1.0,
+      "supportAccess": 0.476,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 222621,
+        "jobSeekers": 721674,
+        "employed": 212118,
+        "openingsPerSeeker": 0.308,
+        "employmentPerSeeker": 0.294,
+        "trainingParticipants": 35275,
+        "cardIssued": 43850,
+        "counselingOperators": 30,
+        "subsidyOperators": 10
+      }
+    },
+    "인천": {
+      "demand": 0.526,
+      "competition": 0.515,
+      "wage": 1.0,
+      "supportAccess": 0.47,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 316326,
+        "jobSeekers": 946005,
+        "employed": 306303,
+        "openingsPerSeeker": 0.334,
+        "employmentPerSeeker": 0.324,
+        "trainingParticipants": 34144,
+        "cardIssued": 61807,
+        "counselingOperators": 27,
+        "subsidyOperators": 10
+      }
+    },
+    "광주": {
+      "demand": 0.385,
+      "competition": 0.672,
+      "wage": 1.0,
+      "supportAccess": 0.445,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 99939,
+        "jobSeekers": 410361,
+        "employed": 122811,
+        "openingsPerSeeker": 0.244,
+        "employmentPerSeeker": 0.299,
+        "trainingParticipants": 17603,
+        "cardIssued": 28239,
+        "counselingOperators": 20,
+        "subsidyOperators": 14
+      }
+    },
+    "대전": {
+      "demand": 0.311,
+      "competition": 0.72,
+      "wage": 1.0,
+      "supportAccess": 0.398,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 85032,
+        "jobSeekers": 377727,
+        "employed": 105201,
+        "openingsPerSeeker": 0.225,
+        "employmentPerSeeker": 0.279,
+        "trainingParticipants": 14462,
+        "cardIssued": 26236,
+        "counselingOperators": 12,
+        "subsidyOperators": 6
+      }
+    },
+    "울산": {
+      "demand": 0.497,
+      "competition": 0.482,
+      "wage": 1.0,
+      "supportAccess": 0.401,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 132753,
+        "jobSeekers": 366687,
+        "employed": 112095,
+        "openingsPerSeeker": 0.362,
+        "employmentPerSeeker": 0.306,
+        "trainingParticipants": 11795,
+        "cardIssued": 20331,
+        "counselingOperators": 16,
+        "subsidyOperators": 3
+      }
+    },
+    "세종": {
+      "demand": 0.449,
+      "competition": 0.491,
+      "wage": 1.0,
+      "supportAccess": 0.35,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 29772,
+        "jobSeekers": 83931,
+        "employed": 24408,
+        "openingsPerSeeker": 0.355,
+        "employmentPerSeeker": 0.291,
+        "trainingParticipants": 1293,
+        "cardIssued": 5693,
+        "counselingOperators": 3,
+        "subsidyOperators": 2
+      }
+    },
+    "경기": {
+      "demand": 0.535,
+      "competition": 0.461,
+      "wage": 1.0,
+      "supportAccess": 0.88,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 1501563,
+        "jobSeekers": 3924606,
+        "employed": 1229922,
+        "openingsPerSeeker": 0.383,
+        "employmentPerSeeker": 0.313,
+        "trainingParticipants": 112081,
+        "cardIssued": 265942,
+        "counselingOperators": 116,
+        "subsidyOperators": 30
+      }
+    },
+    "강원": {
+      "demand": 0.613,
+      "competition": 0.441,
+      "wage": 1.0,
+      "supportAccess": 0.412,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 147903,
+        "jobSeekers": 365277,
+        "employed": 122247,
+        "openingsPerSeeker": 0.405,
+        "employmentPerSeeker": 0.335,
+        "trainingParticipants": 6470,
+        "cardIssued": 18137,
+        "counselingOperators": 17,
+        "subsidyOperators": 7
+      }
+    },
+    "충북": {
+      "demand": 0.729,
+      "competition": 0.36,
+      "wage": 1.0,
+      "supportAccess": 0.413,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 222681,
+        "jobSeekers": 422397,
+        "employed": 144009,
+        "openingsPerSeeker": 0.527,
+        "employmentPerSeeker": 0.341,
+        "trainingParticipants": 8682,
+        "cardIssued": 21352,
+        "counselingOperators": 17,
+        "subsidyOperators": 7
+      }
+    },
+    "충남": {
+      "demand": 0.606,
+      "competition": 0.363,
+      "wage": 1.0,
+      "supportAccess": 0.442,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 272535,
+        "jobSeekers": 522012,
+        "employed": 156093,
+        "openingsPerSeeker": 0.522,
+        "employmentPerSeeker": 0.299,
+        "trainingParticipants": 12183,
+        "cardIssued": 30184,
+        "counselingOperators": 25,
+        "subsidyOperators": 7
+      }
+    },
+    "전북": {
+      "demand": 0.741,
+      "competition": 0.378,
+      "wage": 1.0,
+      "supportAccess": 0.453,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 260442,
+        "jobSeekers": 527535,
+        "employed": 187152,
+        "openingsPerSeeker": 0.494,
+        "employmentPerSeeker": 0.355,
+        "trainingParticipants": 15635,
+        "cardIssued": 27062,
+        "counselingOperators": 29,
+        "subsidyOperators": 6
+      }
+    },
+    "전남": {
+      "demand": 0.698,
+      "competition": 0.34,
+      "wage": 1.0,
+      "supportAccess": 0.425,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 240510,
+        "jobSeekers": 421977,
+        "employed": 134283,
+        "openingsPerSeeker": 0.57,
+        "employmentPerSeeker": 0.318,
+        "trainingParticipants": 8787,
+        "cardIssued": 22977,
+        "counselingOperators": 22,
+        "subsidyOperators": 5
+      }
+    },
+    "경북": {
+      "demand": 0.568,
+      "competition": 0.397,
+      "wage": 1.0,
+      "supportAccess": 0.502,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 323607,
+        "jobSeekers": 697164,
+        "employed": 210453,
+        "openingsPerSeeker": 0.464,
+        "employmentPerSeeker": 0.302,
+        "trainingParticipants": 14932,
+        "cardIssued": 34176,
+        "counselingOperators": 43,
+        "subsidyOperators": 7
+      }
+    },
+    "경남": {
+      "demand": 0.661,
+      "competition": 0.379,
+      "wage": 1.0,
+      "supportAccess": 0.513,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 466482,
+        "jobSeekers": 946128,
+        "employed": 308967,
+        "openingsPerSeeker": 0.493,
+        "employmentPerSeeker": 0.327,
+        "trainingParticipants": 26309,
+        "cardIssued": 50407,
+        "counselingOperators": 41,
+        "subsidyOperators": 11
+      }
+    },
+    "제주": {
+      "demand": 0.423,
+      "competition": 0.524,
+      "wage": 1.0,
+      "supportAccess": 0.356,
+      "rawCounts": {
+        "recentMonths": [
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03"
+        ],
+        "openings": 44877,
+        "jobSeekers": 137121,
+        "employed": 39651,
+        "openingsPerSeeker": 0.327,
+        "employmentPerSeeker": 0.289,
+        "trainingParticipants": 3255,
+        "cardIssued": 9765,
+        "counselingOperators": 6,
+        "subsidyOperators": 0
+      }
+    }
+  },
+  "jobMarket": {
+    "서울": {
+      "데이터 분석": {
+        "demand": 0.564,
+        "competition": 0.394,
+        "rawCounts": {
+          "openings": 16297,
+          "jobSeekers": 56388,
+          "employed": 16926,
+          "openingsPerSeeker": 0.289,
+          "employmentPerSeeker": 0.3
+        }
+      },
+      "사무": {
+        "demand": 0.457,
+        "competition": 0.534,
+        "rawCounts": {
+          "openings": 97351,
+          "jobSeekers": 395060,
+          "employed": 118016,
+          "openingsPerSeeker": 0.246,
+          "employmentPerSeeker": 0.299
+        }
+      },
+      "마케팅": {
+        "demand": 0.514,
+        "competition": 0.703,
+        "rawCounts": {
+          "openings": 690,
+          "jobSeekers": 14082,
+          "employed": 4650,
+          "openingsPerSeeker": 0.049,
+          "employmentPerSeeker": 0.33
+        }
+      },
+      "개발": {
+        "demand": 0.609,
+        "competition": 0.411,
+        "rawCounts": {
+          "openings": 1582,
+          "jobSeekers": 38491,
+          "employed": 12540,
+          "openingsPerSeeker": 0.041,
+          "employmentPerSeeker": 0.326
+        }
+      },
+      "디자인": {
+        "demand": 0.531,
+        "competition": 0.81,
+        "rawCounts": {
+          "openings": 5382,
+          "jobSeekers": 162336,
+          "employed": 41434,
+          "openingsPerSeeker": 0.033,
+          "employmentPerSeeker": 0.255
+        }
+      }
+    },
+    "부산": {
+      "데이터 분석": {
+        "demand": 0.365,
+        "competition": 0.539,
+        "rawCounts": {
+          "openings": 3797,
+          "jobSeekers": 19601,
+          "employed": 5156,
+          "openingsPerSeeker": 0.194,
+          "employmentPerSeeker": 0.263
+        }
+      },
+      "사무": {
+        "demand": 0.353,
+        "competition": 0.644,
+        "rawCounts": {
+          "openings": 35030,
+          "jobSeekers": 166492,
+          "employed": 47226,
+          "openingsPerSeeker": 0.21,
+          "employmentPerSeeker": 0.284
+        }
+      },
+      "마케팅": {
+        "demand": 0.42,
+        "competition": 0.382,
+        "rawCounts": {
+          "openings": 240,
+          "jobSeekers": 1841,
+          "employed": 471,
+          "openingsPerSeeker": 0.13,
+          "employmentPerSeeker": 0.256
+        }
+      },
+      "개발": {
+        "demand": 0.401,
+        "competition": 0.468,
+        "rawCounts": {
+          "openings": 208,
+          "jobSeekers": 6242,
+          "employed": 1545,
+          "openingsPerSeeker": 0.033,
+          "employmentPerSeeker": 0.248
+        }
+      },
+      "디자인": {
+        "demand": 0.387,
+        "competition": 0.545,
+        "rawCounts": {
+          "openings": 1534,
+          "jobSeekers": 29154,
+          "employed": 6284,
+          "openingsPerSeeker": 0.053,
+          "employmentPerSeeker": 0.216
+        }
+      }
+    },
+    "대구": {
+      "데이터 분석": {
+        "demand": 0.341,
+        "competition": 0.555,
+        "rawCounts": {
+          "openings": 2286,
+          "jobSeekers": 12224,
+          "employed": 3146,
+          "openingsPerSeeker": 0.187,
+          "employmentPerSeeker": 0.257
+        }
+      },
+      "사무": {
+        "demand": 0.287,
+        "competition": 0.748,
+        "rawCounts": {
+          "openings": 20122,
+          "jobSeekers": 108815,
+          "employed": 29906,
+          "openingsPerSeeker": 0.185,
+          "employmentPerSeeker": 0.275
+        }
+      },
+      "마케팅": {
+        "demand": 0.363,
+        "competition": 0.51,
+        "rawCounts": {
+          "openings": 80,
+          "jobSeekers": 1019,
+          "employed": 257,
+          "openingsPerSeeker": 0.079,
+          "employmentPerSeeker": 0.252
+        }
+      },
+      "개발": {
+        "demand": 0.49,
+        "competition": 0.358,
+        "rawCounts": {
+          "openings": 214,
+          "jobSeekers": 4050,
+          "employed": 1047,
+          "openingsPerSeeker": 0.053,
+          "employmentPerSeeker": 0.259
+        }
+      },
+      "디자인": {
+        "demand": 0.398,
+        "competition": 0.641,
+        "rawCounts": {
+          "openings": 820,
+          "jobSeekers": 18910,
+          "employed": 4218,
+          "openingsPerSeeker": 0.043,
+          "employmentPerSeeker": 0.223
+        }
+      }
+    },
+    "인천": {
+      "데이터 분석": {
+        "demand": 0.286,
+        "competition": 0.9,
+        "rawCounts": {
+          "openings": 1824,
+          "jobSeekers": 17104,
+          "employed": 4441,
+          "openingsPerSeeker": 0.107,
+          "employmentPerSeeker": 0.26
+        }
+      },
+      "사무": {
+        "demand": 0.33,
+        "competition": 0.9,
+        "rawCounts": {
+          "openings": 21980,
+          "jobSeekers": 139964,
+          "employed": 41268,
+          "openingsPerSeeker": 0.157,
+          "employmentPerSeeker": 0.295
+        }
+      },
+      "마케팅": {
+        "demand": 0.419,
+        "competition": 0.9,
+        "rawCounts": {
+          "openings": 74,
+          "jobSeekers": 2087,
+          "employed": 615,
+          "openingsPerSeeker": 0.035,
+          "employmentPerSeeker": 0.295
+        }
+      },
+      "개발": {
+        "demand": 0.425,
+        "competition": 0.9,
+        "rawCounts": {
+          "openings": 102,
+          "jobSeekers": 7514,
+          "employed": 2141,
+          "openingsPerSeeker": 0.014,
+          "employmentPerSeeker": 0.285
+        }
+      },
+      "디자인": {
+        "demand": 0.436,
+        "competition": 0.9,
+        "rawCounts": {
+          "openings": 954,
+          "jobSeekers": 32376,
+          "employed": 7728,
+          "openingsPerSeeker": 0.029,
+          "employmentPerSeeker": 0.239
+        }
+      }
+    },
+    "광주": {
+      "데이터 분석": {
+        "demand": 0.495,
+        "competition": 0.558,
+        "rawCounts": {
+          "openings": 1542,
+          "jobSeekers": 8297,
+          "employed": 2522,
+          "openingsPerSeeker": 0.186,
+          "employmentPerSeeker": 0.304
+        }
+      },
+      "사무": {
+        "demand": 0.452,
+        "competition": 0.649,
+        "rawCounts": {
+          "openings": 14700,
+          "jobSeekers": 70299,
+          "employed": 21768,
+          "openingsPerSeeker": 0.209,
+          "employmentPerSeeker": 0.31
+        }
+      },
+      "마케팅": {
+        "demand": 0.464,
+        "competition": 0.344,
+        "rawCounts": {
+          "openings": 107,
+          "jobSeekers": 658,
+          "employed": 172,
+          "openingsPerSeeker": 0.163,
+          "employmentPerSeeker": 0.261
+        }
+      },
+      "개발": {
+        "demand": 0.479,
+        "competition": 0.376,
+        "rawCounts": {
+          "openings": 142,
+          "jobSeekers": 2950,
+          "employed": 768,
+          "openingsPerSeeker": 0.048,
+          "employmentPerSeeker": 0.26
+        }
+      },
+      "디자인": {
+        "demand": 0.445,
+        "competition": 0.463,
+        "rawCounts": {
+          "openings": 764,
+          "jobSeekers": 11904,
+          "employed": 2622,
+          "openingsPerSeeker": 0.064,
+          "employmentPerSeeker": 0.22
+        }
+      }
+    },
+    "대전": {
+      "데이터 분석": {
+        "demand": 0.683,
+        "competition": 0.267,
+        "rawCounts": {
+          "openings": 4258,
+          "jobSeekers": 8428,
+          "employed": 2401,
+          "openingsPerSeeker": 0.505,
+          "employmentPerSeeker": 0.285
+        }
+      },
+      "사무": {
+        "demand": 0.42,
+        "competition": 0.535,
+        "rawCounts": {
+          "openings": 15756,
+          "jobSeekers": 64087,
+          "employed": 18537,
+          "openingsPerSeeker": 0.246,
+          "employmentPerSeeker": 0.289
+        }
+      },
+      "마케팅": {
+        "demand": 0.368,
+        "competition": 0.464,
+        "rawCounts": {
+          "openings": 64,
+          "jobSeekers": 699,
+          "employed": 174,
+          "openingsPerSeeker": 0.092,
+          "employmentPerSeeker": 0.249
+        }
+      },
+      "개발": {
+        "demand": 0.628,
+        "competition": 0.334,
+        "rawCounts": {
+          "openings": 228,
+          "jobSeekers": 3758,
+          "employed": 1153,
+          "openingsPerSeeker": 0.061,
+          "employmentPerSeeker": 0.307
+        }
+      },
+      "디자인": {
+        "demand": 0.405,
+        "competition": 0.736,
+        "rawCounts": {
+          "openings": 444,
+          "jobSeekers": 12018,
+          "employed": 2742,
+          "openingsPerSeeker": 0.037,
+          "employmentPerSeeker": 0.228
+        }
+      }
+    },
+    "울산": {
+      "데이터 분석": {
+        "demand": 0.335,
+        "competition": 0.495,
+        "rawCounts": {
+          "openings": 1230,
+          "jobSeekers": 5717,
+          "employed": 1423,
+          "openingsPerSeeker": 0.215,
+          "employmentPerSeeker": 0.249
+        }
+      },
+      "사무": {
+        "demand": 0.33,
+        "competition": 0.689,
+        "rawCounts": {
+          "openings": 10443,
+          "jobSeekers": 52564,
+          "employed": 14797,
+          "openingsPerSeeker": 0.199,
+          "employmentPerSeeker": 0.282
+        }
+      },
+      "마케팅": {
+        "demand": 0.62,
+        "competition": 0.258,
+        "rawCounts": {
+          "openings": 108,
+          "jobSeekers": 297,
+          "employed": 73,
+          "openingsPerSeeker": 0.364,
+          "employmentPerSeeker": 0.246
+        }
+      },
+      "개발": {
+        "demand": 0.574,
+        "competition": 0.278,
+        "rawCounts": {
+          "openings": 100,
+          "jobSeekers": 1085,
+          "employed": 261,
+          "openingsPerSeeker": 0.092,
+          "employmentPerSeeker": 0.241
+        }
+      },
+      "디자인": {
+        "demand": 0.694,
+        "competition": 0.25,
+        "rawCounts": {
+          "openings": 912,
+          "jobSeekers": 6046,
+          "employed": 1324,
+          "openingsPerSeeker": 0.151,
+          "employmentPerSeeker": 0.219
+        }
+      }
+    },
+    "세종": {
+      "데이터 분석": {
+        "demand": 0.398,
+        "competition": 0.44,
+        "rawCounts": {
+          "openings": 476,
+          "jobSeekers": 1903,
+          "employed": 494,
+          "openingsPerSeeker": 0.25,
+          "employmentPerSeeker": 0.26
+        }
+      },
+      "사무": {
+        "demand": 0.418,
+        "competition": 0.437,
+        "rawCounts": {
+          "openings": 4357,
+          "jobSeekers": 15009,
+          "employed": 4117,
+          "openingsPerSeeker": 0.29,
+          "employmentPerSeeker": 0.274
+        }
+      },
+      "마케팅": {
+        "demand": 0.511,
+        "competition": 0.303,
+        "rawCounts": {
+          "openings": 40,
+          "jobSeekers": 182,
+          "employed": 47,
+          "openingsPerSeeker": 0.22,
+          "employmentPerSeeker": 0.258
+        }
+      },
+      "개발": {
+        "demand": 0.567,
+        "competition": 0.375,
+        "rawCounts": {
+          "openings": 31,
+          "jobSeekers": 641,
+          "employed": 191,
+          "openingsPerSeeker": 0.048,
+          "employmentPerSeeker": 0.298
+        }
+      },
+      "디자인": {
+        "demand": 0.361,
+        "competition": 0.446,
+        "rawCounts": {
+          "openings": 170,
+          "jobSeekers": 2526,
+          "employed": 510,
+          "openingsPerSeeker": 0.067,
+          "employmentPerSeeker": 0.202
+        }
+      }
+    },
+    "경기": {
+      "데이터 분석": {
+        "demand": 0.341,
+        "competition": 0.689,
+        "rawCounts": {
+          "openings": 10857,
+          "jobSeekers": 75086,
+          "employed": 20066,
+          "openingsPerSeeker": 0.145,
+          "employmentPerSeeker": 0.267
+        }
+      },
+      "사무": {
+        "demand": 0.334,
+        "competition": 0.743,
+        "rawCounts": {
+          "openings": 112524,
+          "jobSeekers": 605150,
+          "employed": 173423,
+          "openingsPerSeeker": 0.186,
+          "employmentPerSeeker": 0.287
+        }
+      },
+      "마케팅": {
+        "demand": 0.449,
+        "competition": 0.606,
+        "rawCounts": {
+          "openings": 662,
+          "jobSeekers": 10943,
+          "employed": 3253,
+          "openingsPerSeeker": 0.06,
+          "employmentPerSeeker": 0.297
+        }
+      },
+      "개발": {
+        "demand": 0.525,
+        "competition": 0.467,
+        "rawCounts": {
+          "openings": 1271,
+          "jobSeekers": 38025,
+          "employed": 11435,
+          "openingsPerSeeker": 0.033,
+          "employmentPerSeeker": 0.301
+        }
+      },
+      "디자인": {
+        "demand": 0.424,
+        "competition": 0.674,
+        "rawCounts": {
+          "openings": 6138,
+          "jobSeekers": 150016,
+          "employed": 34432,
+          "openingsPerSeeker": 0.041,
+          "employmentPerSeeker": 0.23
+        }
+      }
+    },
+    "강원": {
+      "데이터 분석": {
+        "demand": 0.717,
+        "competition": 0.326,
+        "rawCounts": {
+          "openings": 2863,
+          "jobSeekers": 7622,
+          "employed": 2484,
+          "openingsPerSeeker": 0.376,
+          "employmentPerSeeker": 0.326
+        }
+      },
+      "사무": {
+        "demand": 0.675,
+        "competition": 0.371,
+        "rawCounts": {
+          "openings": 19067,
+          "jobSeekers": 57732,
+          "employed": 18916,
+          "openingsPerSeeker": 0.33,
+          "employmentPerSeeker": 0.328
+        }
+      },
+      "마케팅": {
+        "demand": 0.362,
+        "competition": 0.353,
+        "rawCounts": {
+          "openings": 70,
+          "jobSeekers": 457,
+          "employed": 101,
+          "openingsPerSeeker": 0.153,
+          "employmentPerSeeker": 0.221
+        }
+      },
+      "개발": {
+        "demand": 0.367,
+        "competition": 0.37,
+        "rawCounts": {
+          "openings": 65,
+          "jobSeekers": 1308,
+          "employed": 275,
+          "openingsPerSeeker": 0.05,
+          "employmentPerSeeker": 0.21
+        }
+      },
+      "디자인": {
+        "demand": 0.567,
+        "competition": 0.335,
+        "rawCounts": {
+          "openings": 718,
+          "jobSeekers": 7322,
+          "employed": 1644,
+          "openingsPerSeeker": 0.098,
+          "employmentPerSeeker": 0.225
+        }
+      }
+    },
+    "충북": {
+      "데이터 분석": {
+        "demand": 0.66,
+        "competition": 0.397,
+        "rawCounts": {
+          "openings": 2095,
+          "jobSeekers": 7328,
+          "employed": 2416,
+          "openingsPerSeeker": 0.286,
+          "employmentPerSeeker": 0.33
+        }
+      },
+      "사무": {
+        "demand": 0.691,
+        "competition": 0.399,
+        "rawCounts": {
+          "openings": 20263,
+          "jobSeekers": 64943,
+          "employed": 21944,
+          "openingsPerSeeker": 0.312,
+          "employmentPerSeeker": 0.338
+        }
+      },
+      "마케팅": {
+        "demand": 0.429,
+        "competition": 0.354,
+        "rawCounts": {
+          "openings": 73,
+          "jobSeekers": 479,
+          "employed": 120,
+          "openingsPerSeeker": 0.152,
+          "employmentPerSeeker": 0.251
+        }
+      },
+      "개발": {
+        "demand": 0.524,
+        "competition": 0.355,
+        "rawCounts": {
+          "openings": 90,
+          "jobSeekers": 1679,
+          "employed": 457,
+          "openingsPerSeeker": 0.054,
+          "employmentPerSeeker": 0.272
+        }
+      },
+      "디자인": {
+        "demand": 0.621,
+        "competition": 0.324,
+        "rawCounts": {
+          "openings": 804,
+          "jobSeekers": 7828,
+          "employed": 1820,
+          "openingsPerSeeker": 0.103,
+          "employmentPerSeeker": 0.232
+        }
+      }
+    },
+    "충남": {
+      "데이터 분석": {
+        "demand": 0.548,
+        "competition": 0.408,
+        "rawCounts": {
+          "openings": 2644,
+          "jobSeekers": 9595,
+          "employed": 2865,
+          "openingsPerSeeker": 0.276,
+          "employmentPerSeeker": 0.299
+        }
+      },
+      "사무": {
+        "demand": 0.583,
+        "competition": 0.396,
+        "rawCounts": {
+          "openings": 25829,
+          "jobSeekers": 82308,
+          "employed": 25463,
+          "openingsPerSeeker": 0.314,
+          "employmentPerSeeker": 0.309
+        }
+      },
+      "마케팅": {
+        "demand": 0.351,
+        "competition": 0.426,
+        "rawCounts": {
+          "openings": 55,
+          "jobSeekers": 518,
+          "employed": 122,
+          "openingsPerSeeker": 0.106,
+          "employmentPerSeeker": 0.236
+        }
+      },
+      "개발": {
+        "demand": 0.53,
+        "competition": 0.29,
+        "rawCounts": {
+          "openings": 219,
+          "jobSeekers": 2644,
+          "employed": 620,
+          "openingsPerSeeker": 0.083,
+          "employmentPerSeeker": 0.234
+        }
+      },
+      "디자인": {
+        "demand": 0.403,
+        "competition": 0.447,
+        "rawCounts": {
+          "openings": 690,
+          "jobSeekers": 10274,
+          "employed": 2160,
+          "openingsPerSeeker": 0.067,
+          "employmentPerSeeker": 0.21
+        }
+      }
+    },
+    "전북": {
+      "데이터 분석": {
+        "demand": 0.786,
+        "competition": 0.29,
+        "rawCounts": {
+          "openings": 4171,
+          "jobSeekers": 9359,
+          "employed": 3089,
+          "openingsPerSeeker": 0.446,
+          "employmentPerSeeker": 0.33
+        }
+      },
+      "사무": {
+        "demand": 0.801,
+        "competition": 0.308,
+        "rawCounts": {
+          "openings": 30065,
+          "jobSeekers": 79080,
+          "employed": 27207,
+          "openingsPerSeeker": 0.38,
+          "employmentPerSeeker": 0.344
+        }
+      },
+      "마케팅": {
+        "demand": 0.878,
+        "competition": 0.25,
+        "rawCounts": {
+          "openings": 211,
+          "jobSeekers": 514,
+          "employed": 174,
+          "openingsPerSeeker": 0.411,
+          "employmentPerSeeker": 0.339
+        }
+      },
+      "개발": {
+        "demand": 0.408,
+        "competition": 0.397,
+        "rawCounts": {
+          "openings": 78,
+          "jobSeekers": 1787,
+          "employed": 422,
+          "openingsPerSeeker": 0.044,
+          "employmentPerSeeker": 0.236
+        }
+      },
+      "디자인": {
+        "demand": 0.781,
+        "competition": 0.263,
+        "rawCounts": {
+          "openings": 1324,
+          "jobSeekers": 9482,
+          "employed": 2302,
+          "openingsPerSeeker": 0.14,
+          "employmentPerSeeker": 0.243
+        }
+      }
+    },
+    "전남": {
+      "데이터 분석": {
+        "demand": 0.785,
+        "competition": 0.25,
+        "rawCounts": {
+          "openings": 4335,
+          "jobSeekers": 7715,
+          "employed": 2331,
+          "openingsPerSeeker": 0.562,
+          "employmentPerSeeker": 0.302
+        }
+      },
+      "사무": {
+        "demand": 0.771,
+        "competition": 0.25,
+        "rawCounts": {
+          "openings": 28083,
+          "jobSeekers": 63661,
+          "employed": 20147,
+          "openingsPerSeeker": 0.441,
+          "employmentPerSeeker": 0.316
+        }
+      },
+      "마케팅": {
+        "demand": 0.545,
+        "competition": 0.264,
+        "rawCounts": {
+          "openings": 92,
+          "jobSeekers": 275,
+          "employed": 62,
+          "openingsPerSeeker": 0.335,
+          "employmentPerSeeker": 0.225
+        }
+      },
+      "개발": {
+        "demand": 0.691,
+        "competition": 0.25,
+        "rawCounts": {
+          "openings": 169,
+          "jobSeekers": 1359,
+          "employed": 334,
+          "openingsPerSeeker": 0.124,
+          "employmentPerSeeker": 0.246
+        }
+      },
+      "디자인": {
+        "demand": 0.665,
+        "competition": 0.263,
+        "rawCounts": {
+          "openings": 844,
+          "jobSeekers": 6058,
+          "employed": 1332,
+          "openingsPerSeeker": 0.139,
+          "employmentPerSeeker": 0.22
+        }
+      }
+    },
+    "경북": {
+      "데이터 분석": {
+        "demand": 0.477,
+        "competition": 0.469,
+        "rawCounts": {
+          "openings": 2549,
+          "jobSeekers": 11052,
+          "employed": 3181,
+          "openingsPerSeeker": 0.231,
+          "employmentPerSeeker": 0.288
+        }
+      },
+      "사무": {
+        "demand": 0.585,
+        "competition": 0.351,
+        "rawCounts": {
+          "openings": 34286,
+          "jobSeekers": 99629,
+          "employed": 29896,
+          "openingsPerSeeker": 0.344,
+          "employmentPerSeeker": 0.3
+        }
+      },
+      "마케팅": {
+        "demand": 0.444,
+        "competition": 0.337,
+        "rawCounts": {
+          "openings": 94,
+          "jobSeekers": 553,
+          "employed": 138,
+          "openingsPerSeeker": 0.17,
+          "employmentPerSeeker": 0.25
+        }
+      },
+      "개발": {
+        "demand": 0.557,
+        "competition": 0.289,
+        "rawCounts": {
+          "openings": 208,
+          "jobSeekers": 2488,
+          "employed": 609,
+          "openingsPerSeeker": 0.084,
+          "employmentPerSeeker": 0.245
+        }
+      },
+      "디자인": {
+        "demand": 0.426,
+        "competition": 0.363,
+        "rawCounts": {
+          "openings": 892,
+          "jobSeekers": 10152,
+          "employed": 2058,
+          "openingsPerSeeker": 0.088,
+          "employmentPerSeeker": 0.203
+        }
+      }
+    },
+    "경남": {
+      "데이터 분석": {
+        "demand": 0.53,
+        "competition": 0.423,
+        "rawCounts": {
+          "openings": 4069,
+          "jobSeekers": 15450,
+          "employed": 4575,
+          "openingsPerSeeker": 0.263,
+          "employmentPerSeeker": 0.296
+        }
+      },
+      "사무": {
+        "demand": 0.596,
+        "competition": 0.37,
+        "rawCounts": {
+          "openings": 47463,
+          "jobSeekers": 143385,
+          "employed": 44050,
+          "openingsPerSeeker": 0.331,
+          "employmentPerSeeker": 0.307
+        }
+      },
+      "마케팅": {
+        "demand": 0.476,
+        "competition": 0.323,
+        "rawCounts": {
+          "openings": 145,
+          "jobSeekers": 773,
+          "employed": 198,
+          "openingsPerSeeker": 0.188,
+          "employmentPerSeeker": 0.256
+        }
+      },
+      "개발": {
+        "demand": 0.695,
+        "competition": 0.255,
+        "rawCounts": {
+          "openings": 373,
+          "jobSeekers": 3179,
+          "employed": 818,
+          "openingsPerSeeker": 0.117,
+          "employmentPerSeeker": 0.257
+        }
+      },
+      "디자인": {
+        "demand": 0.521,
+        "competition": 0.328,
+        "rawCounts": {
+          "openings": 1616,
+          "jobSeekers": 16014,
+          "employed": 3426,
+          "openingsPerSeeker": 0.101,
+          "employmentPerSeeker": 0.214
+        }
+      }
+    },
+    "제주": {
+      "데이터 분석": {
+        "demand": 0.594,
+        "competition": 0.365,
+        "rawCounts": {
+          "openings": 969,
+          "jobSeekers": 3027,
+          "employed": 914,
+          "openingsPerSeeker": 0.32,
+          "employmentPerSeeker": 0.302
+        }
+      },
+      "사무": {
+        "demand": 0.543,
+        "competition": 0.487,
+        "rawCounts": {
+          "openings": 5788,
+          "jobSeekers": 21783,
+          "employed": 6856,
+          "openingsPerSeeker": 0.266,
+          "employmentPerSeeker": 0.315
+        }
+      },
+      "마케팅": {
+        "demand": 0.685,
+        "competition": 0.303,
+        "rawCounts": {
+          "openings": 73,
+          "jobSeekers": 330,
+          "employed": 110,
+          "openingsPerSeeker": 0.221,
+          "employmentPerSeeker": 0.333
+        }
+      },
+      "개발": {
+        "demand": 0.629,
+        "competition": 0.251,
+        "rawCounts": {
+          "openings": 71,
+          "jobSeekers": 578,
+          "employed": 128,
+          "openingsPerSeeker": 0.123,
+          "employmentPerSeeker": 0.221
+        }
+      },
+      "디자인": {
+        "demand": 0.55,
+        "competition": 0.348,
+        "rawCounts": {
+          "openings": 348,
+          "jobSeekers": 3746,
+          "employed": 840,
+          "openingsPerSeeker": 0.093,
+          "employmentPerSeeker": 0.224
+        }
+      }
+    }
+  },
+  "jobProfiles": {
+    "데이터 분석": {
+      "ncs": "정보기술 > 빅데이터분석",
+      "required": [
+        "Excel",
+        "SQL",
+        "Python",
+        "데이터 시각화",
+        "기초 통계",
+        "문제정의"
+      ],
+      "adjacent": [
+        "데이터 운영",
+        "BI 리포팅",
+        "사무자동화",
+        "마케팅 데이터 보조"
+      ],
+      "baseWage": 311,
+      "trainingBoost": 0.138,
+      "sourceIndustry": "워크피디아 직업분류 기준",
+      "wageBasis": {
+        "source": "임금직업포털 워크피디아 맞춤형 임금정보",
+        "codes": [
+          "223"
+        ],
+        "p25MonthlyManwon": 362.1,
+        "medianMonthlyManwon": 521.0,
+        "averageMonthlyManwon": 586.0,
+        "youthAdjustedMonthlyManwon": 311.4,
+        "note": "워크피디아는 2024년 기준 추정치이므로 청년 초입 경로에는 하위 25퍼센트 임금을 보수적으로 조정해 반영"
+      },
+      "ncsUnits": [
+        {
+          "code": "2001010509_21v4",
+          "name": "빅데이터 분석 결과 시각화",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010510_21v4",
+          "name": "분석 데이터 전처리",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010511_21v4",
+          "name": "탐색적 데이터 분석",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010512_21v1",
+          "name": "분석 데이터 피처(Feature) 엔지니어링",
+          "level": "7",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010513_21v1",
+          "name": "빅데이터 분석 모델링",
+          "level": "7",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010514_21v1",
+          "name": "빅데이터 분석 결과 평가",
+          "level": "7",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010515_21v1",
+          "name": "빅데이터 분석 플로우 구성",
+          "level": "7",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001010516_21v1",
+          "name": "데이터 분석 기초 기술 활용",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술전략·계획 > 빅데이터분석"
+        },
+        {
+          "code": "2001070101_23v2",
+          "name": "인공지능 플랫폼 구축 계획",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 인공지능 > 인공지능플랫폼구축"
+        },
+        {
+          "code": "2001070102_23v2",
+          "name": "인공지능 플랫폼 요구사항 분석",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 인공지능 > 인공지능플랫폼구축"
+        },
+        {
+          "code": "2001070103_23v2",
+          "name": "인공지능 플랫폼 설계",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 인공지능 > 인공지능플랫폼구축"
+        },
+        {
+          "code": "2001070104_23v2",
+          "name": "인공지능 플랫폼 인프라 구현",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 인공지능 > 인공지능플랫폼구축"
+        }
+      ]
+    },
+    "사무": {
+      "ncs": "경영, 회계, 사무 > 총무, 인사, 회계",
+      "required": [
+        "Excel",
+        "문서작성",
+        "커뮤니케이션",
+        "일정관리",
+        "자료정리"
+      ],
+      "adjacent": [
+        "영업지원",
+        "HR 운영",
+        "총무",
+        "고객운영"
+      ],
+      "baseWage": 217,
+      "trainingBoost": 0.14,
+      "sourceIndustry": "워크피디아 직업분류 기준",
+      "wageBasis": {
+        "source": "임금직업포털 워크피디아 맞춤형 임금정보",
+        "codes": [
+          "312",
+          "313",
+          "314",
+          "399"
+        ],
+        "p25MonthlyManwon": 252.0,
+        "medianMonthlyManwon": 315.0,
+        "averageMonthlyManwon": 368.9,
+        "youthAdjustedMonthlyManwon": 216.7,
+        "note": "워크피디아는 2024년 기준 추정치이므로 청년 초입 경로에는 하위 25퍼센트 임금을 보수적으로 조정해 반영"
+      },
+      "ncsUnits": [
+        {
+          "code": "0201010101_22v3",
+          "name": "사업환경 분석",
+          "level": "4",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010102_22v2",
+          "name": "경영방침 수립",
+          "level": "7",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010103_22v2",
+          "name": "경영계획 수립",
+          "level": "6",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010104_22v2",
+          "name": "신규사업 기획",
+          "level": "6",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010105_22v2",
+          "name": "사업별 투자 관리",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010106_13v1",
+          "name": "예산 관리",
+          "level": "4",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010107_22v2",
+          "name": "경영실적 분석",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010108_22v2",
+          "name": "경영 리스크 관리",
+          "level": "6",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0201010109_22v2",
+          "name": "이해관계자 관리",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 경영기획 > 경영기획"
+        },
+        {
+          "code": "0202010101_25v3",
+          "name": "사업계획수립",
+          "level": "5",
+          "category": "경영·회계·사무 > 총무·인사 > 총무 > 총무"
+        },
+        {
+          "code": "0202010102_25v3",
+          "name": "행사지원관리",
+          "level": "5",
+          "category": "경영·회계·사무 > 총무·인사 > 총무 > 총무"
+        },
+        {
+          "code": "0202010103_25v3",
+          "name": "부동산관리",
+          "level": "5",
+          "category": "경영·회계·사무 > 총무·인사 > 총무 > 총무"
+        }
+      ]
+    },
+    "마케팅": {
+      "ncs": "경영, 회계, 사무 > 마케팅",
+      "required": [
+        "콘텐츠 기획",
+        "Excel",
+        "데이터 리터러시",
+        "SNS 운영",
+        "문서작성"
+      ],
+      "adjacent": [
+        "콘텐츠 운영",
+        "CRM 보조",
+        "광고 운영",
+        "영업지원"
+      ],
+      "baseWage": 262,
+      "trainingBoost": 0.141,
+      "sourceIndustry": "워크피디아 직업분류 기준",
+      "wageBasis": {
+        "source": "임금직업포털 워크피디아 맞춤형 임금정보",
+        "codes": [
+          "273"
+        ],
+        "p25MonthlyManwon": 304.4,
+        "medianMonthlyManwon": 427.0,
+        "averageMonthlyManwon": 496.9,
+        "youthAdjustedMonthlyManwon": 261.8,
+        "note": "워크피디아는 2024년 기준 추정치이므로 청년 초입 경로에는 하위 25퍼센트 임금을 보수적으로 조정해 반영"
+      },
+      "ncsUnits": [
+        {
+          "code": "0201030102_21v5",
+          "name": "신상품 기획",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030106_21v4",
+          "name": "전략적 제휴",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030108_21v4",
+          "name": "마케팅 전략 계획 수립",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030109_21v4",
+          "name": "마케팅 시장 환경 분석",
+          "level": "3",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030116_21v4",
+          "name": "STP 전략 수립",
+          "level": "4",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030117_21v4",
+          "name": "마케팅 믹스 전략 수립",
+          "level": "4",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030118_21v4",
+          "name": "마케팅 성과 관리",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 마케팅전략기획"
+        },
+        {
+          "code": "0201030201_21v3",
+          "name": "고객관리 계획 수립",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 고객관리"
+        },
+        {
+          "code": "0201030206_21v3",
+          "name": "고객 필요정보 제공",
+          "level": "3",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 고객관리"
+        },
+        {
+          "code": "0201030207_21v3",
+          "name": "고객관리 성과 평가",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 고객관리"
+        },
+        {
+          "code": "0201030210_21v4",
+          "name": "고객 관계 관리",
+          "level": "4",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 고객관리"
+        },
+        {
+          "code": "0201030211_21v4",
+          "name": "고객데이터 분석",
+          "level": "5",
+          "category": "경영·회계·사무 > 기획사무 > 마케팅 > 고객관리"
+        }
+      ]
+    },
+    "개발": {
+      "ncs": "정보기술 > 응용SW엔지니어링",
+      "required": [
+        "JavaScript",
+        "Python",
+        "Git",
+        "SQL",
+        "API 이해",
+        "문제해결"
+      ],
+      "adjacent": [
+        "QA",
+        "웹 퍼블리싱",
+        "데이터 엔지니어링 보조",
+        "IT 운영"
+      ],
+      "baseWage": 293,
+      "trainingBoost": 0.14,
+      "sourceIndustry": "워크피디아 직업분류 기준",
+      "wageBasis": {
+        "source": "임금직업포털 워크피디아 맞춤형 임금정보",
+        "codes": [
+          "222"
+        ],
+        "p25MonthlyManwon": 340.5,
+        "medianMonthlyManwon": 492.4,
+        "averageMonthlyManwon": 555.9,
+        "youthAdjustedMonthlyManwon": 292.9,
+        "note": "워크피디아는 2024년 기준 추정치이므로 청년 초입 경로에는 하위 25퍼센트 임금을 보수적으로 조정해 반영"
+      },
+      "ncsUnits": [
+        {
+          "code": "2001020201_23v5",
+          "name": "요구사항 확인",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020205_23v6",
+          "name": "데이터 입출력 구현",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020206_23v6",
+          "name": "통합 구현",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020208_23v5",
+          "name": "정보시스템 이행",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020209_23v6",
+          "name": "제품소프트웨어 패키징",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020211_23v6",
+          "name": "서버프로그램 구현",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020212_23v6",
+          "name": "인터페이스 구현",
+          "level": "5",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020214_23v6",
+          "name": "애플리케이션 배포",
+          "level": "3",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020217_23v6",
+          "name": "애플리케이션 리팩토링",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020218_23v6",
+          "name": "인터페이스 설계",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020219_23v6",
+          "name": "애플리케이션 요구사항 분석",
+          "level": "7",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        },
+        {
+          "code": "2001020220_23v3",
+          "name": "기능 모델링",
+          "level": "6",
+          "category": "정보통신 > 정보기술 > 정보기술개발 > 응용SW엔지니어링"
+        }
+      ]
+    },
+    "디자인": {
+      "ncs": "문화, 예술, 디자인 > 디자인",
+      "required": [
+        "Figma",
+        "포트폴리오",
+        "사용자 이해",
+        "시각디자인",
+        "커뮤니케이션"
+      ],
+      "adjacent": [
+        "콘텐츠 디자인",
+        "서비스 운영",
+        "UX 리서치 보조",
+        "마케팅 디자인"
+      ],
+      "baseWage": 228,
+      "trainingBoost": 0.127,
+      "sourceIndustry": "워크피디아 직업분류 기준",
+      "wageBasis": {
+        "source": "임금직업포털 워크피디아 맞춤형 임금정보",
+        "codes": [
+          "285"
+        ],
+        "p25MonthlyManwon": 265.2,
+        "medianMonthlyManwon": 337.3,
+        "averageMonthlyManwon": 397.0,
+        "youthAdjustedMonthlyManwon": 228.1,
+        "note": "워크피디아는 2024년 기준 추정치이므로 청년 초입 경로에는 하위 25퍼센트 임금을 보수적으로 조정해 반영"
+      },
+      "ncsUnits": [
+        {
+          "code": "0802010106_20v3",
+          "name": "프레젠테이션",
+          "level": "5",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010108_20v2",
+          "name": "디자인 제작 관리",
+          "level": "5",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010109_20v3",
+          "name": "디자인 자료화",
+          "level": "4",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010111_20v3",
+          "name": "시각디자인 프로젝트 기획",
+          "level": "6",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010112_20v4",
+          "name": "시각디자인 리서치 조사",
+          "level": "4",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010113_20v4",
+          "name": "시각디자인 리서치 분석",
+          "level": "4",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010114_20v4",
+          "name": "시각디자인 전략수립",
+          "level": "6",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010116_20v4",
+          "name": "비주얼 아이데이션 구상",
+          "level": "3",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010117_20v4",
+          "name": "비주얼 아이데이션 전개",
+          "level": "4",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010118_20v4",
+          "name": "비주얼 아이데이션 적용",
+          "level": "5",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010119_20v3",
+          "name": "시안 디자인 개발 기초",
+          "level": "3",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        },
+        {
+          "code": "0802010120_20v3",
+          "name": "시안 디자인 개발 응용",
+          "level": "4",
+          "category": "문화·예술·디자인·방송 > 디자인 > 디자인 > 시각디자인"
+        }
+      ]
+    }
+  },
+  "dataQuality": {
+    "duplicateRegionWarnings": []
+  },
+  "policyEffects": {
+    "counseling": 0.08,
+    "trainingBase": 0.137,
+    "subsidy": 0.08,
+    "integratedSynergy": 0.045,
+    "distancePenalty": 0.025,
+    "jobSearchPressure": 0.025
+  },
+  "simulationSpec": {
+    "agentsPerRun": 1000,
+    "runs": 500,
+    "months": 12,
+    "method": "규칙 기반 ABM",
+    "dataBasis": "최근 12개월 지역별 직종별 구인구직취업 실적, 기관 접근성, 훈련 접근성, 워크피디아 임금 기준선"
+  }
+}

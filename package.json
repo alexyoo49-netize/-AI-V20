@@ -1,0 +1,15 @@
+{
+  "name": "nae-il-path-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "5.6.205"
+  }
+}

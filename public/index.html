@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내일경로 AI | 청년 취업경로 맞춤안내</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="official-bar">
+      <div class="official-inner">
+        <span class="flag-dot" aria-hidden="true"></span>
+        <span>이 누리집은 고용노동 공공데이터를 활용한 공모전 시연 서비스입니다.</span>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <div>
+          <strong>내일경로 AI</strong>
+          <span>청년 취업경로 맞춤안내</span>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="#input-section">자가진단</a>
+        <a href="#result-section">경로비교</a>
+        <a href="#data-section">활용데이터</a>
+      </nav>
+      <button id="demoFillBtn" type="button">예시 입력</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">고용노동부 공공데이터 224개 목록 검토, 6개 핵심 데이터 산출 MVP</p>
+            <h1>내 상황에 맞는 취업경로를 한 번에 비교해 보세요.</h1>
+            <p>
+              자연어 고민과 이력서 내용을 바탕으로 보유역량과 부족역량을 정리하고,
+              바로 구직·상담·훈련·장려금 기업·통합경로의 결과를 시뮬레이션합니다.
+            </p>
+          </div>
+          <div class="service-search" aria-label="서비스 핵심 입력 예시">
+            <span>맞춤안내 바로가기</span>
+            <strong>청년 취업경로 자가진단</strong>
+            <p>나이, 지역, 희망직무, 이력서 내용을 입력하면 경로별 예상 결과가 표시됩니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="shell">
+        <section class="quick-info" aria-label="서비스 요약">
+          <article>
+            <b>AI 프로필 정리</b>
+            <span>자연어와 이력서에서 역량·희망직무·제약조건을 구조화</span>
+          </article>
+          <article>
+            <b>ABM 시뮬레이션</b>
+            <span>1,000명 합성 에이전트 x 5개 경로 x 12개월 x 500회 반복 비교</span>
+          </article>
+          <article>
+            <b>맞춤 실행계획</b>
+            <span>이번 주 할 일, 훈련, 이력서 보완 포인트 제안</span>
+          </article>
+        </section>
+
+        <section class="workspace" id="input-section">
+          <form id="profileForm" class="panel input-panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-kicker">자가진단 신청</p>
+                <h2>내 상황 입력</h2>
+              </div>
+              <span id="dataBadge">데이터 불러오는 중</span>
+            </div>
+
+            <label>
+              자연어 고민
+              <textarea
+                id="story"
+                rows="6"
+                placeholder="예: 부산 사는 27살 문과 졸업생입니다. 데이터 분석 쪽으로 가고 싶은데 바로 취업해야 할지 훈련을 들어야 할지 모르겠어요."
+              ></textarea>
+            </label>
+
+            <div class="grid-2">
+              <label>
+                지역
+                <select id="region"></select>
+              </label>
+              <label>
+                나이
+                <input id="age" type="number" min="18" max="39" value="27" />
+              </label>
+              <label>
+                희망 직무
+                <select id="desiredJob"></select>
+              </label>
+              <label>
+                훈련 가능 기간
+                <select id="trainingMonths">
+                  <option value="0">훈련 어려움</option>
+                  <option value="2">2개월</option>
+                  <option value="3" selected>3개월</option>
+                  <option value="6">6개월</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              이력서/자소서 붙여넣기
+              <textarea
+                id="resumeText"
+                rows="8"
+                placeholder="경력, 프로젝트, 자격증, 기술스택, 자기소개서 일부를 붙여넣으세요."
+              ></textarea>
+            </label>
+
+            <label class="file-box">
+              <span>PDF 이력서 업로드</span>
+              <input id="pdfFile" type="file" accept="application/pdf" />
+              <small id="pdfStatus">선택 사항입니다. 추출 실패 시 붙여넣기 입력을 사용합니다.</small>
+            </label>
+
+            <button class="primary" type="submit">맞춤 경로 확인하기</button>
+          </form>
+
+          <section class="panel output-panel" id="result-section">
+            <div class="panel-head">
+              <div>
+                <p class="section-kicker">맞춤안내 결과</p>
+                <h2>AI 구조화 결과</h2>
+              </div>
+            </div>
+            <div id="profileCards" class="profile-cards empty">입력 후 분석 결과가 표시됩니다.</div>
+
+            <div class="panel-head sub">
+              <div>
+                <p class="section-kicker">경로별 예상 결과</p>
+                <h2>취업경로 비교</h2>
+              </div>
+            </div>
+            <div class="sim-method">
+              <strong>시뮬레이션 기준</strong>
+              <ul>
+                <li>청년 합성 에이전트 1,000명을 생성해 사용자와 유사한 구직자 집단을 가정합니다.</li>
+                <li>바로 구직, 국민취업지원, 훈련 후 구직, 장려금 기업, 통합 경로 등 5개 경로를 비교합니다.</li>
+                <li>각 에이전트는 12개월 동안 미취업, 상담중, 훈련중, 지원중, 취업, 이탈 상태를 월별로 이동합니다.</li>
+                <li>전체 실험을 500회 반복해 경로별 취업확률, 예상 소요기간, 예상 초임, 12개월 유지 가능성을 계산합니다.</li>
+              </ul>
+            </div>
+            <div id="routeResults" class="routes empty">ABM 시뮬레이션 결과가 여기에 표시됩니다.</div>
+          </section>
+        </section>
+
+        <section class="panel plan-panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">개인별 안내문</p>
+              <h2>이번 주 실행계획</h2>
+            </div>
+          </div>
+          <div id="actionPlan" class="plan empty">
+            추천 경로가 나오면 실행계획과 이력서 보완 포인트가 생성됩니다.
+          </div>
+        </section>
+
+        <section class="panel data-panel" id="data-section">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">공공데이터 근거</p>
+              <h2>사용한 공공데이터</h2>
+            </div>
+          </div>
+          <div id="datasetList" class="dataset-list"></div>
+        </section>
+      </div>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
